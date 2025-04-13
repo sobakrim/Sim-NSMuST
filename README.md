@@ -27,8 +27,8 @@ which can quickly become computationally prohibitive for moderately sized domain
 
 <h2 id="collaborators">Collaborators</h2>
 <ul>
-  <li>Denis Allard &ndash; 
-  <li>Lionel Benoit &ndash; 
+  <li>Denis Allard 
+  <li>Lionel Benoit 
 </ul>
 
 <hr />
