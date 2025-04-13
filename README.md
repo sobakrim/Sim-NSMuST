@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <title>Simulation Algorithm for Nonstationary Multivariate Space-Time Gaussian Random Fields</title>
-</head>
+# Simulation Algorithm for Nonstationary Multivariate Space-Time Gaussian Random Fields
 <body style="font-family: Arial, sans-serif;">
 
 <hr />
