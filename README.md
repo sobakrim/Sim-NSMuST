@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Simulation Algorithm for Nonstationary Multivariate Space-Time Gaussian Random Fields - README</title>
+  <title>Simulation Algorithm for Nonstationary Multivariate Space-Time Gaussian Random Fields</title>
 </head>
 <body style="font-family: Arial, sans-serif;">
 
