@@ -6,21 +6,9 @@
 </head>
 <body style="font-family: Arial, sans-serif;">
 
-<h1>Nonstationary Gaussian Field Simulation</h1>
-
 <p>
 This repository contains R functions for simulating nonstationary Gaussian fields in space and time, using Gaussian mixtures. 
 </p>
-
-<hr />
-
-<h2>Table of Contents</h2>
-<ol>
-  <li><a href="#overview">Overview</a></li>
-  <li><a href="#example-usage">Example Usage</a></li>
-  <li><a href="#contributing">Contributing</a></li>
-  <li><a href="#license">License</a></li>
-</ol>
 
 <hr />
 
@@ -36,35 +24,6 @@ repository demonstrates how to:
   <li>Use different spectral densities (e.g., Matern, Cauchy) for flexible modeling.</li>
   <li>Efficiently generate Gaussian increments consistent with these nonstationary assumptions.</li>
 </ul>
-<p>
-The functions in this codebase leverage <em>Cholesky factorization</em>, <em>spectral representations</em>, and
-<em>Monte Carlo methods</em> to create realistic spatio-temporal data under complex correlation structures.
-</p>
-
-<hr />
-
-<h2 id="getting-started">Getting Started</h2>
-<ol>
-  <li><strong>Load the Functions</strong>: Include the <code>.R</code> file containing these functions in your working environment:
-    <pre><code>source("nonstationary_gaussian_field.R")</code></pre>
-  </li>
-  <li><strong>Prepare Parameters</strong>: Create a <code>params</code> list with elements such as:
-    <ul>
-      <li><code>p</code>: number of variables/fields</li>
-      <li><code>nt</code>: number of time steps</li>
-      <li><code>t</code>: vector of time points</li>
-      <li><code>l_funcs</code>: list of length-scale functions</li>
-      <li><code>anisotropies</code>: list of anisotropy functions</li>
-      <li><code>MaternPars</code>: list of Matern parameter functions</li>
-      <li><code>Sigma_fun</code>: covariance function</li>
-      <li><code>a</code>, <code>alpha</code>: variogram parameters for time</li>
-    </ul>
-    (… and any other relevant parameters for your model).
-  </li>
-  <li><strong>Generate Data</strong>: Call <code>SimulateParsimNS</code> or
-    <code>SimulateParsimNS(..., SpectralDensity = MaternSpectralDensity, ...)</code> to perform the simulation.
-  </li>
-</ol>
 
 <hr />
 
