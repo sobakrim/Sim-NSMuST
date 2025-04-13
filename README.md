@@ -36,14 +36,7 @@ which can quickly become computationally prohibitive for moderately sized domain
 <h2 id="example-usage">Example Usage</h2>
 <p>The following is a more detailed example demonstrating how to set up a simulation environment and perform a basic run:</p>
 
-<pre><code># Load required libraries
-library(MASS)
-library(ggplot2)
-library(dplyr)
-library(gridExtra)
-library(invgamma)
-library(patchwork)
-
+<pre><code>
 # Source the functions
 source("Sim-NSMuST.R")  
 
